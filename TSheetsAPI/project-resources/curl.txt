@@ -1,0 +1,21 @@
+----------------------------------------
+For compucom.tsheets
+----------------------------------------
+User: eric.dush@compucom.com
+----------------------------------------
+curl -H "Authorization: Bearer S.3__2761f9250e68efb290c7735b85c457b81cb59752" -i "https://rest.tsheets.com/api/v1/users?per_page=3" -k
+
+curl -H "Authorization: Bearer S.3__2761f9250e68efb290c7735b85c457b81cb59752" -i "https://rest.tsheets.com/api/v1/users?per_page=1" -k
+
+curl -H "Authorization: Bearer S.3__2761f9250e68efb290c7735b85c457b81cb59752" -i "https://rest.tsheets.com/api/v1/customfielditems" -k
+curl -H "Authorization: Bearer S.3__2761f9250e68efb290c7735b85c457b81cb59752" -i "https://rest.tsheets.com/api/v1/timesheets?per_page=50&page=0&start_date=2017-02-08&end_date=2017-02-09" -k
+curl -H "Authorization: Bearer S.3__2761f9250e68efb290c7735b85c457b81cb59752" -i "https://rest.tsheets.com/api/v1/customfields?applies_to=user" -k
+----------------------------------------
+For someguyssoftware.tsheets
+----------------------------------------
+User: mark.gottschling@gmail.com
+Pwd: markman14
+----------------------------------------
+curl -H "Authorization: Bearer S.3__735145c276eec602467edc65907f7c15a6ec7d52" -i "https://rest.tsheets.com/api/v1/users?per_page=1" -k
+
+curl -H "Authorization: Bearer S.3__735145c276eec602467edc65907f7c15a6ec7d52" -i "https://rest.tsheets.com/api/v1/customfielditems" -k
